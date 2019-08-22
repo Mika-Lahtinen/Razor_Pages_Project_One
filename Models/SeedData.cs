@@ -50,7 +50,8 @@ namespace Razor_Pages_Project_One.Models
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
                         Price = 3.99M
-                    };
+                    }
+                    );
                 context.SaveChanges();
             }
         }
