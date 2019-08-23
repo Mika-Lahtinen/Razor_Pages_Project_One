@@ -4720,6 +4720,9 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "vue/2.6.10": {
+        "type": "package"
       }
     }
   },
@@ -12926,6 +12929,20 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "vue/2.6.10": {
+      "sha512": "0gHzGwCXDK9Jdn741+d8ncNvIERS+eFRBfiorgfurmizdRIL0l7y1petC6p7oD73HpciLjBzqgCL/a6u2hNGKQ==",
+      "type": "package",
+      "path": "vue/2.6.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/vue.js",
+        "Content/Scripts/vue.min.js",
+        "license/LICENSE.txt",
+        "vue.2.6.10.nupkg.sha512",
+        "vue.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -12933,7 +12950,8 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "vue >= 2.6.10"
     ]
   },
   "packageFolders": {
@@ -13000,6 +13018,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.2.3, )"
+          },
+          "vue": {
+            "target": "Package",
+            "version": "[2.6.10, )"
           }
         },
         "imports": [

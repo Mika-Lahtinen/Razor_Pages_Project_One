@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "9730342b7b575aaeb702fae13ca2a10b3cc123ef"
+    "signature": "8307eefef3969ca2ffee4e7aeac0289a75e0bd2e"
   },
   "compilationOptions": {
     "defines": [
@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "vue": "2.6.10"
         },
         "runtime": {
           "Razor_Pages_Project_One.dll": {}
@@ -342,6 +343,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "vue/2.6.10": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -3669,6 +3671,13 @@
       "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "vue/2.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0gHzGwCXDK9Jdn741+d8ncNvIERS+eFRBfiorgfurmizdRIL0l7y1petC6p7oD73HpciLjBzqgCL/a6u2hNGKQ==",
+      "path": "vue/2.6.10",
+      "hashPath": "vue.2.6.10.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
